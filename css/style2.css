@@ -1,5 +1,11 @@
 .branding {
+  font-family: Tahoma, Verdana, sans-serif;
   font-size: 17px;
+  font-weight: bold;
+}
+
+.branding a:hover {
+  background-color: #FF0000; !important
 }
 
 .showcase {
