@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/style2.css"/>
+
   </head>
   <body>
+
+
+
     <!-- NAVIGATION -->
     <div class="w3-top">
       <div class="branding w3-bar w3-black">
@@ -88,6 +92,10 @@
       </div>
     </section>
 
+    <p>
+      You can learn about <a href="https://en.wikipedia.org/wiki/Chat">Chat</a> and <a href="https://en.wikipedia.org/wiki/Chien">Chien</a> and <a href="https://en.wikipedia.org/wiki/Virtual_machine">Virtual machine</a> from Wikipedia.
+    </p>
+
     <!-- SERVICES -->
     <section class="section w3-light-grey">
       <div class="w3-container w3-center">
@@ -95,6 +103,10 @@
           <div class="w3-col m3">
             <i class="fa fa-comment w3-red w3-padding-small w3-round-xlarge"></i>
             <h3>Internet Marketing</h3>
+            <ul>
+              <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a> is cool</li>
+              <li><a href="https://en.wikipedia.org/wiki/Scala_(programming_language)">Scala</a></li>
+            </ul>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="w3-col m3">
@@ -176,6 +188,8 @@
       </div>
     </div>
 
+    <div class="popup-container"></div>
+
     <script>
     function accordionFunction(id) {
       var x = document.getElementById(id);
@@ -185,6 +199,13 @@
         x.className = x.className.replace(" w3-show", "");
       }
     }
+    </script>
+
+    <script src="./dist/wikipedia-preview.umd.cjs"></script>
+    <script type="text/javascript">
+      wikipediaPreview.init({
+        detectLinks: true
+      })
     </script>
 
   </body>

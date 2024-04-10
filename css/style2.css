@@ -4,12 +4,23 @@
   font-weight: bold;
 }
 
-.branding a:hover {
+/*
+a.w3-bar-item.w3-button.w3-mobile:hover {
   background-color: #FF0000; !important
+}
+*/
+
+.w3-hover-red:hover {
+  background-color: #FF0000 !important;
+}
+
+.devexe-red {
+  color: #FFFFFF !important;
+  background-color: #FF0000 !important;
 }
 
 .showcase {
-  background:url('../images/airliner.jpg') no-repeat;
+  background:url('../images/airliner.jpg') no-repeat; */
   background-position: center;
   height: 600px;
   padding: 140px 100px;
