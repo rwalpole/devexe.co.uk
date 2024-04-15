@@ -7,6 +7,7 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="css/style2.css"/>
   </head>
   <body>
@@ -32,65 +33,147 @@
     <section class="w3-row">
       <div class="w3-quarter w3-container"></div>
       <div class="w3-large w3-half w3-container w3-card w3-justify">
-        <h2>Who we are</h2>
-        <p>Devexe was founded in 2012 as a specialist software engineer consultancy offering expert computer programming, data architecture and technical leadership services to UK and international clients.</p>
-        <p>We are data experts. We understand the importance of our client’s data, whether that be scientific measurements, financial information, technical documentation, or archival records. We have a deep knowledge of data storage techniques and data formats, as well as data optimisation, validation, querying, and transformation. We know how to deliver data securely to our client’s users so that the information they need is always at their fingertips when they need it.</p>
-        <h2>Our clients</h2>
-        <p>Our clients include major international airlines, aircraft engine manufacturers, legal publishers, government departments and national archives. Working on projects alongside our clients, we have helped them to achieve their digital transformation goals. Whether that be replacing paper-based systems with digital or replacing first generation digital systems with the state of the art.</p>
-        <h2>Our philosophy</h2>
-        <p>Devexe is a strong advocate of international standardisation. We believe our clients should be able to move their data between different storage solutions without being locked in to proprietary formats. We strongly support standards bodies such the <a href="https://www.w3.org/">W3C</a> and <a href="https://www.asd-europe.org/">ASD</a>.</p>
-        <p>We are also firm advocates of developing and using open-source software wherever this can be clearly demonstrated to benefit our clients. We believe open-source software frequently offers more flexibility and cost savings compared to proprietary software.</p>
+        <div class="w3-card w3-padding w3-margin-top">
+          <h2>Who we are</h2>
+          <p>Devexe was founded in 2012 as a specialist software engineer consultancy offering expert computer programming, data architecture and technical leadership services to UK and international clients.</p>
+          <p>We are data experts. We understand the importance of our client’s data, whether that be scientific measurements, financial information, technical documentation, or archival records. We have a deep knowledge of data storage techniques and data formats, as well as data optimisation, validation, querying, and transformation. We know how to deliver data securely to our client’s users so that the information they need is always at their fingertips when they need it.</p>
+        </div>
+        <div class="w3-card w3-padding w3-margin-top">
+          <h2>Our clients</h2>
+          <p>Our clients include major international airlines, aircraft engine manufacturers, legal publishers, government departments and national archives. Working on projects alongside our clients, we have helped them to achieve their digital transformation goals. Whether that be replacing paper-based systems with digital or replacing first generation digital systems with the state of the art.</p>
+        </div>
+        <div class="w3-card w3-padding w3-margin-top">
+          <h2>Our philosophy</h2>
+          <p>Devexe is a strong advocate of international standardisation. We believe our clients should be able to move their data between different storage solutions without being locked in to proprietary formats. We strongly support standards bodies such the <a href="https://www.w3.org/">W3C</a> and <a href="https://www.asd-europe.org/">ASD</a>.</p>
+          <p>We are also firm advocates of developing and using open-source software wherever this can be clearly demonstrated to benefit our clients. We believe open-source software frequently offers more flexibility and cost savings compared to proprietary software.</p>
+        </div>
+        <div class="w3-card w3-padding w3-margin-top w3-margin-bottom">
+          <h2>Our specialisms</h2>
+          <p class="w3-large">Some of the key skills Devexe have employed on previous projects are listed below. This is not an exhaustive list but rather intended to give an idea about the kind of technical know-how Devexe has accumulated. It should be noted however that Devexe is a firmly forward-looking company and is continuously seeking new and innovative ways to deliver for our clients.</p>
+          <button onclick="myFunction('languages')" class="w3-btn w3-block w3-center devexe-red w3-xlarge">Programming, query and transformation languages</button>
+          <div id="languages" class="w3-container w3-hide w3-light-grey">
+            <ul class="w3-ul w3-card-4 w3-center w3-large">
+              <li><a href="https://en.wikipedia.org/wiki/Scala_(programming_language)">Scala</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/XQuery">XQuery</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/XSLT">XSLT</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/SPARQL">SPARQL</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/SQL">SQL</a></li>
+            </ul>
+          </div>
+          <button onclick="myFunction('standards')" class="w3-btn w3-block w3-center devexe-red w3-xlarge w3-margin-top">International Standards &amp; Specifications</button>
+          <div id="standards" class="w3-container w3-hide w3-light-grey">
+            <ul class="w3-ul w3-card-4 w3-center w3-large">
+              <li><a href="https://en.wikipedia.org/wiki/Semantic_Web">The Semantic Web</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/XML">Extensible Markup Language (XML)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/XML_Schema_(W3C)">XML Schema Definition (XSD)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/XPath">XML Path Language (XPath)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/S1000D">S1000D</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Turtle_(syntax)">Terse RDF Triple Language (Turtle)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/HTML">Hypertext Markup Language (HTML)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/CSS">Cascading Style Sheets (CSS)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System">Simple Knowledge Organization System (SKOS)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Web_Ontology_Language">Web Ontology Language (OWL)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Resource_Description_Framework">Resource Description Framework (RDF)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/ODRL">Open Digital Rights Language (ODRL)</a></li>
+            </ul>
+          </div>
+          <button onclick="myFunction('frameworks')" class="w3-btn w3-block w3-center devexe-red w3-xlarge w3-margin-top">Frameworks</button>
+          <div id="frameworks" class="w3-container w3-hide w3-light-grey">
+            <ul class="w3-ul w3-card-4 w3-center w3-large">
+              <li><a href="https://en.wikipedia.org/wiki/Apache_Jena">Apache Jena</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/RDF4J">RDF4J</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Pentaho">Pentaho</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Play_Framework">Play Framework</a></li>
+            </ul>
+          </div>
+          <button onclick="myFunction('databases')" class="w3-btn w3-block w3-centre devexe-red w3-xlarge w3-margin-top w3-margin-bottom">Database and document management systems</button>
+          <div id="databases" class="w3-container w3-hide w3-light-grey">
+            <ul class="w3-ul w3-card-4 w3-center w3-large">
+              <li><a href="https://en.wikipedia.org/wiki/Oracle_Database">Oracle</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/MongoDB">MongoDB</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/EXist">eXist-db</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/MarkLogic_Server">Marklogic Server</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Prot%C3%A9g%C3%A9_(software)">Protege</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server">Microsoft SQL Server</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Amazon_Neptune">Amazon Neptune</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Neo4j">Neo4j</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="w3-card w3-padding w3-margin-top">
+          <h2>Publications</h2>
+          <p>Devexe is a strong advocate of international standardisation. We believe our clients should be able to move their data between different storage solutions without being locked in to proprietary formats. We strongly support standards bodies such the <a href="https://www.w3.org/">W3C</a> and <a href="https://www.asd-europe.org/">ASD</a>.</p>
+          <p>We are also firm advocates of developing and using open-source software wherever this can be clearly demonstrated to benefit our clients. We believe open-source software frequently offers more flexibility and cost savings compared to proprietary software.</p>
+        </div>
+        <div class="w3-card w3-padding w3-margin-top">
+          <h2>Get in touch</h2>
+          <p class="w3-large">If you would like to discuss a project with us or have any further questions please get in touch using the form below.</p>
+          <div class="w3-card-4 w3-light-grey w3-margin-bottom">
+            <form class="w3-container w3-padding-large">
+              <label class="w3-label">Name</label>
+              <input class="w3-input w3-border" type="text"/>
+              <label class="w3-label">Email</label>
+              <input class="w3-input w3-border" type="text"/>
+              <label class="w3-label">Message</label>
+              <textarea class="w3-input w3-border" style="resize:none"></textarea>
+              <button type="submit" class="w3-btn devexe-red w3-margin-top">Submit</button>
+              <br/><br/>
+            </form>
+          </div>
+        </div>
       </div>
       <div class="w3-quarter w3-container"></div>
     </section>
 
-    <section id="specialisms" class="w3-row">
+    <!-- <section id="specialisms" class="w3-row">
       <div class="w3-quarter w3-container"></div>
-      <div class="w3-container w3-half w3-center section devexe-red w3-padding-large w3-padding-48">
+      <div class="w3-container w3-half w3-center section w3-padding-large w3-padding-48">
         <i class="fa fa-cogs"></i>
         <h1>Our specialisms</h1>
         <p class="w3-large">Some of the key skills Devexe have employed on previous projects are listed below. This is not an exhaustive list but rather intended to give an idea about the kind of technical know-how Devexe has accumulated. It should be noted however that Devexe is a firmly forward-looking company and is continuously seeking new and innovative ways to deliver for our clients.</p>
 
-        <button onclick="myFunction('languages')" class="w3-btn w3-block w3-center w3-xlarge w3-hover-red">Programming, query and transformation languages</button>
+        <button onclick="myFunction('languages')" class="w3-btn w3-block w3-center w3-xlarge">Programming, query and transformation languages</button>
         <div id="languages" class="w3-container w3-hide w3-light-grey">
-        <ul class="w3-ul w3-card-4 w3-center w3-large">
-          <li><a href="https://en.wikipedia.org/wiki/Scala_(programming_language)">Scala</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/XQuery">XQuery</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/XSLT">XSLT</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/SPARQL">SPARQL</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/SQL">SQL</a></li>
-        </ul>
-      </div>
+          <ul class="w3-ul w3-card-4 w3-center w3-large">
+            <li><a href="https://en.wikipedia.org/wiki/Scala_(programming_language)">Scala</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/XQuery">XQuery</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/XSLT">XSLT</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/SPARQL">SPARQL</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/SQL">SQL</a></li>
+          </ul>
+        </div>
 
         <button onclick="myFunction('standards')" class="w3-btn w3-block w3-center w3-xlarge w3-hover-red">International Standards &amp; Specifications</button>
         <div id="standards" class="w3-container w3-hide w3-light-grey">
-        <ul class="w3-ul w3-card-4 w3-center w3-large">
-          <li><a href="https://en.wikipedia.org/wiki/Semantic_Web">The Semantic Web</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/XML">Extensible Markup Language (XML)</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/XML_Schema_(W3C)">XML Schema Definition (XSD)</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/XPath">XML Path Language (XPath)</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/S1000D">S1000D</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Turtle_(syntax)">Terse RDF Triple Language (Turtle)</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/HTML">Hypertext Markup Language (HTML)</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/CSS">Cascading Style Sheets (CSS)</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System">Simple Knowledge Organization System (SKOS)</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Web_Ontology_Language">Web Ontology Language (OWL)</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Resource_Description_Framework">Resource Description Framework (RDF)</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/ODRL">Open Digital Rights Language (ODRL)</a></li>
-        </ul>
-      </div>
+          <ul class="w3-ul w3-card-4 w3-center w3-large">
+            <li><a href="https://en.wikipedia.org/wiki/Semantic_Web">The Semantic Web</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/XML">Extensible Markup Language (XML)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/XML_Schema_(W3C)">XML Schema Definition (XSD)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/XPath">XML Path Language (XPath)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/S1000D">S1000D</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Turtle_(syntax)">Terse RDF Triple Language (Turtle)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/HTML">Hypertext Markup Language (HTML)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/CSS">Cascading Style Sheets (CSS)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System">Simple Knowledge Organization System (SKOS)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Web_Ontology_Language">Web Ontology Language (OWL)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Resource_Description_Framework">Resource Description Framework (RDF)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/ODRL">Open Digital Rights Language (ODRL)</a></li>
+          </ul>
+        </div>
 
         <button onclick="myFunction('frameworks')" class="w3-btn w3-block w3-center w3-xlarge w3-hover-red">Frameworks</button>
         <div id="frameworks" class="w3-container w3-hide w3-light-grey">
-        <ul class="w3-ul w3-card-4 w3-center w3-large">
-          <li><a href="https://en.wikipedia.org/wiki/Apache_Jena">Apache Jena</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/RDF4J">RDF4J</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Pentaho">Pentaho</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Play_Framework">Play Framework</a></li>
-        </ul>
-      </div>
+          <ul class="w3-ul w3-card-4 w3-center w3-large">
+            <li><a href="https://en.wikipedia.org/wiki/Apache_Jena">Apache Jena</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/RDF4J">RDF4J</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Pentaho">Pentaho</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Play_Framework">Play Framework</a></li>
+          </ul>
+        </div>
 
         <button onclick="myFunction('databases')" class="w3-btn w3-block w3-centre w3-xlarge w3-hover-red">Database and document management systems</button>
         <div id="databases" class="w3-container w3-hide w3-light-grey">
@@ -105,9 +188,61 @@
             <li><a href="https://en.wikipedia.org/wiki/Neo4j">Neo4j</a></li>
           </ul>
         </div>
+        <div class="w3-card-4">
+          <div class="w3-container devexe-red">
+            <h2>Contact Us</h2>
+          </div>
+          <form class="w3-container w3-padding-xlarge">
+            <label class="w3-label">Name</label>
+            <input class="w3-input" type="text"/>
+            <label class="w3-label">Email</label>
+            <input class="w3-input" type="text"/>
+            <label class="w3-label">Message</label>
+            <input class="w3-input" type="text"/>
+            <textarea class="w3-input w3-border" style="resize:none"></textarea>
+            <button type="submit" class="w3-button">Submit</button>
+            <br/><br/>
+          </form>
+        </div>
       </div>
       <div class="w3-quarter w3-container"></div>
-    </section>
+    </section> -->
+
+    <!-- CONTACT HEADING -->
+    <!-- <section id="contact" class="section w3-row w3-hover-opacity">
+      <div class="w3-quarter w3-container"></div>
+      <div class="w3-half w3-container w3-center">
+        <i class="fa fa-envelope"></i>
+        <h2>Contact us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="w3-quarter w3-container"></div>
+    </section> -->
+
+    <!-- CONTACT -->
+    <!-- <section class="section w3-row">
+      <div class="w3-quarter w3-container"></div>
+      <div class="w3-half w3-container">
+        <div class="w3-card-4">
+          <div class="w3-container devexe-red">
+            <h2>Contact Us</h2>
+          </div>
+          <form class="w3-container w3-padding-xlarge">
+            <label class="w3-label">Name</label>
+            <input class="w3-input" type="text"/>
+            <label class="w3-label">Email</label>
+            <input class="w3-input" type="text"/>
+            <label class="w3-label">Message</label>
+            <input class="w3-input" type="text"/>
+            <textarea class="w3-input w3-border" style="resize:none"></textarea>
+            <button type="submit" class="w3-button">Submit</button>
+            <br/><br/>
+          </form>
+        </div>
+      </div>
+      <div class="w3-quarter w3-container"></div>
+    </section> -->
+
 
     <footer class="w3-row">
       <div class="w3-quarter w3-container"></div>
