@@ -10,6 +10,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: Roboto, sans-serif;}
   font-weight: bold;
 }
 
+/* .menu {
+  color: #FFFFFF;
+} */
+
 
 /* .devexe {
   font-family: futura-pt, sans-serif;
@@ -17,11 +21,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: Roboto, sans-serif;}
   font-weight: 300;
 } */
 
-/*
-a.w3-bar-item.w3-button.w3-mobile:hover {
-  background-color: #FF0000; !important
+
+a.w3-bar-item.w3-button:hover {
+  color: #FFFFFF!important;
+  background-color: #FF0000!important;
 }
-*/
+
 
 .w3-hover-red:hover {
   background-color: #FF0000 !important;
