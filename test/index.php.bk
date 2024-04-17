@@ -71,11 +71,11 @@
     <!-- Page Content -->
 
 
-    <div class="w3-row branding devexe-red">
-      <div class="w3-quarter w3-container w3-hide-small" style="color:#FF0000!important">A</div>
+    <div class="w3-row branding">
+      <div class="w3-quarter w3-container"></div>
       <div class="w3-half w3-container devexe-red" style="padding-left:0px">
         <!-- Sidebar -->
-        <div class="w3-sidebar w3-bar-block w3-border-right w3-animate-opacity w3-large" style="display:none;width:auto" id="mySidebar">
+        <div class="w3-sidebar w3-bar-block w3-border-right w3-animate-opacity w3-xlarge" style="display:none;width:auto" id="mySidebar">
           <button onclick="w3_close()" class="w3-bar-item w3-xlarge devexe-red">&times;</button>
           <a href="#about" class="w3-bar-item w3-button" style="color:black" onclick="w3_close()">Who we are</a>
           <a href="#clients" class="w3-bar-item w3-button" style="color:black" onclick="w3_close()">Our clients</a>
@@ -85,12 +85,12 @@
         </div>
         <button class="w3-button devexe-red w3-xlarge" onclick="w3_open()">☰</button>
       </div>
-      <div class="w3-quarter w3-container w3-hide-small"></div>
+      <div class="w3-quarter w3-container"></div>
     </div>
 
     <section class="w3-row">
       <div class="w3-quarter w3-container"></div>
-      <div class="w3-large w3-half w3-container w3-justify" onclick="w3_close()">
+      <div class="w3-large w3-half w3-container w3-card w3-justify" onclick="w3_close()">
         <div id="about" class="w3-card w3-padding w3-margin-top w3-round-xlarge">
           <h2>Who we are</h2>
           <p>Devexe was founded in 2012 as a specialist software engineer consultancy offering expert computer programming, data architecture and technical leadership services to UK and international clients.</p>
@@ -98,11 +98,11 @@
         </div>
         <div id="clients" class="w3-card w3-padding w3-margin-top w3-round-xlarge">
           <h2>Our clients</h2>
-          <p>Our clients include major international airlines, aircraft engine manufacturers, legal publishers, government departments and national archives. Working on projects alongside our clients, we have helped them to achieve their digital transformation goals. Whether that be replacing paper-based systems with digital systems or replacing first generation digital systems with state-of-the-art solutions.</p>
+          <p>Our clients include major international airlines, aircraft engine manufacturers, legal publishers, government departments and national archives. Working on projects alongside our clients, we have helped them to achieve their digital transformation goals. Whether that be replacing paper-based systems with digital or replacing first generation digital systems with the state of the art.</p>
         </div>
         <div id="philosophy" class="w3-card w3-padding w3-margin-top w3-round-xlarge">
           <h2>Our philosophy</h2>
-          <p>Devexe is a strong advocate of international standardisation. We believe our clients should be able to move their data between different storage solutions without being locked into proprietary formats. We strongly support standards bodies such the <a href="https://www.w3.org/" target="_blank">W3C</a> and <a href="https://www.asd-europe.org/" target="_blank">ASD</a>.</p>
+          <p>Devexe is a strong advocate of international standardisation. We believe our clients should be able to move their data between different storage solutions without being locked in to proprietary formats. We strongly support standards bodies such the <a href="https://www.w3.org/" target="_blank">W3C</a> and <a href="https://www.asd-europe.org/" target="_blank">ASD</a>.</p>
           <p>We are also firm advocates of developing and using open-source software wherever this can be clearly demonstrated to benefit our clients. We believe open-source software frequently offers more flexibility and cost savings compared to proprietary software.</p>
         </div>
         <div id="specialisms" class="w3-card w3-padding w3-margin-top w3-margin-bottom w3-round-xlarge" style="padding-bottom:24px!important">
@@ -111,7 +111,7 @@
           <button onclick="myFunction('languages')" class="w3-btn w3-block w3-center devexe-red w3-xlarge w3-hide-medium w3-hide-small w3-round-large">Programming, query and transformation languages</button>
           <button onclick="myFunction('languages')" class="w3-btn w3-block w3-center devexe-red w3-xlarge w3-hide-large w3-round-large">Languages</button>
           <div id="languages" class="w3-container w3-hide w3-light-grey">
-            <ul class="w3-ul w3-card-4 w3-center w3-large">
+            <ul class="w3-ul w3-card-4 w3-center w3-xlarge">
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Java</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Scala_(programming_language)" target="_blank">Scala</a></li>
@@ -124,7 +124,7 @@
           <button onclick="myFunction('standards')" class="w3-btn w3-block w3-center devexe-red w3-xlarge w3-margin-top w3-hide-medium w3-hide-small w3-round-large">International Standards &amp; Specifications</button>
           <button onclick="myFunction('standards')" class="w3-btn w3-block w3-center devexe-red w3-xlarge w3-margin-top w3-hide-large w3-round-large">Standards</button>
           <div id="standards" class="w3-container w3-hide w3-light-grey">
-            <ul class="w3-ul w3-card-4 w3-center w3-large">
+            <ul class="w3-ul w3-card-4 w3-center w3-xlarge">
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">Cascading Style Sheets (CSS)</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/XML" target="_blank">Extensible Markup Language (XML)</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Hypertext Markup Language (HTML)</a></li>
@@ -141,7 +141,7 @@
           </div>
           <button onclick="myFunction('frameworks')" class="w3-btn w3-block w3-center devexe-red w3-xlarge w3-margin-top w3-round-large">Frameworks</button>
           <div id="frameworks" class="w3-container w3-hide w3-light-grey">
-            <ul class="w3-ul w3-card-4 w3-center w3-large">
+            <ul class="w3-ul w3-card-4 w3-center w3-xlarge">
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Apache_Jena" target="_blank">Apache Jena</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Pentaho" target="_blank">Pentaho</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Play_Framework" target="_blank">Play Framework</a></li>
@@ -151,7 +151,7 @@
           <button onclick="myFunction('databases')" class="w3-btn w3-block w3-centre devexe-red w3-xlarge w3-margin-top w3-hide-medium w3-hide-small w3-round-large">Database and document management systems</button>
           <button onclick="myFunction('databases')" class="w3-btn w3-block w3-centre devexe-red w3-xlarge w3-margin-top w3-hide-large w3-round-large">Storage</button>
           <div id="databases" class="w3-container w3-hide w3-light-grey">
-            <ul class="w3-ul w3-card-4 w3-center w3-large">
+            <ul class="w3-ul w3-card-4 w3-center w3-xlarge">
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Amazon_Neptune" target="_blank">Amazon Neptune</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Amazon_S3" target="_blank">Amazon S3</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Common_Source_Data_Base" target="_blank">Common Source Data Base (CSDB)</a></li>
@@ -182,7 +182,7 @@
                 <label class="w3-label">Message</label>
                 <textarea class="w3-input w3-border" style="resize:none" name="message"><?php echo $message;?></textarea>
               </div>
-              <button type="submit" class="w3-btn devexe-red w3-large w3-margin-top w3-round-large">Submit</button>
+              <button type="submit" class="w3-btn devexe-red w3-xlarge w3-margin-top w3-round-large">Submit</button>
               <?php if(!empty($response)) { ?>
               <div class="w3-panel w3-pale-green w3-center">
                 <?php echo $response; ?>
@@ -196,9 +196,9 @@
       <div class="w3-quarter w3-container"></div>
     </section>
 
-    <footer class="w3-row w3-black">
-      <div class="w3-quarter w3-container "></div>
-      <div class="w3-half w3-container w3-padding-xlarge w3-center w3-large">
+    <footer class="w3-row">
+      <div class="w3-quarter w3-container"></div>
+      <div class="w3-half w3-container w3-black w3-padding-xlarge w3-center w3-large">
         <p>DeveXe Consultancy Services &copy; 2024</p>
       </div>
       <div class="w3-quarter w3-container"></div>

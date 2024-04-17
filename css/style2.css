@@ -41,6 +41,10 @@ a.w3-bar-item.w3-button:hover {
   background-color: #FF0000 !important;
 }
 
+.w3-ul li {
+  border-bottom:none!important;
+}
+
 .devexe-red {
   color: #FFFFFF !important;
   background-color: #FF0000 !important;
