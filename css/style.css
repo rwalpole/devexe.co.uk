@@ -1,143 +1,92 @@
-* {
-	padding: 0px;
-	margin: 0px;
-	border: 0px;
+.branding {
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
 }
 
-body {
-	background-color: #191E24;
-	font-family: Arial, Helvetica, sans-serif;
-	/* font-size: 0.75em; */
-	color: #a9a9a9;
+body,h1,h2,h3,h4,h5,h6 {font-family: Roboto, sans-serif;}
+
+.strong {
+  font-weight: bold;
 }
 
-a {
-	color: #a9a9a9;
-	text-decoration: none;
+.error {
+  color: #FF0000!important;
 }
 
-a:hover {
-	color: #e2e2e2;
+.success {
+  background-color:
 }
 
-footer {
-	border-top: 1px solid #1c1e1f;	
-	padding: 5px;
-	padding-left: 15px;
-	font-size: 0.8em;
-}
-
-ul {
-	padding-left: 10px;
-}
-
-header {
-	height: 120px;
-	color: #ffffff;
-}
-
-h2 {
-	font-size: 1.2em;
-	width: 100%;
-	border-bottom: 1px solid #1c1e1f;
-	margin-bottom: 10px;
-	padding-bottom: 2px;
-}
-
-nav ul li {
-	display: inline;
-	line-height: 35px;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-
-p {
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-#container {
-	width: 750px;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 5px;
-	background-color: #0f1215;
-	border: 1px solid #1c1e1f;
-	border-radius: 10px 10px 10px 10px;
-}
-
-#logo {
-	margin-left: 50px;
-	padding-top: 20px;
-}
-
-#logo-subtext {
-	font-size: 1.5em;
+a.w3-bar-item.w3-button:hover {
+  color: #FFFFFF!important;
+  background-color: #FF0000!important;
 }
 
 
-#logo h1 {
-	font-size: 4em;
-	text-shadow: 5px 5px 5px #ffffff;
+.w3-hover-red:hover {
+  background-color: #FF0000 !important;
 }
 
-#navigation ul {
-	border-top: 1px solid #1c1e1f;
-	border-bottom: 1px solid #1c1e1f;
-	height: 35px;
-	text-align: center;
+.w3-ul li {
+  border-bottom:none!important;
 }
 
-#content {
+.devexe-red {
+  color: #FFFFFF !important;
+  background-color: #FF0000 !important;
 }
 
-#left {
-	width: 470px;
-	float: left;
+.showcase {
+  background:url('../images/airliner.jpg') no-repeat; */
+  background-position: center;
+  height: 600px;
+  padding: 140px 100px;
+  color:#fff;
 }
 
-#right {
-	width: 280px;
-	float: right;
+.showcase h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-article {
-	background-color: #000000;
-	padding: 10px;
-	margin: 10px;
-	border-radius: 10px 10px 10px 10px;
+.showcase hr {
+  width: 100px;
+  margin: auto;
+  border-width: 3px;
+  border-color: #f44336;
 }
 
-.clr {
-	clear: both;
+.showcase p {
+  font-size: 16px;
+  padding-bottom: 20px;
 }
 
-#copyright {
-	width: 400px;
-	float: left;
+.section {
+  padding: 40px 0;
 }
 
-#createdby {
-	float: right;
+.section h2 {
+  padding: 0;
+  margin: 0;
 }
 
-.red {
-	color: red;
+.section .fa {
+  font-size:50px;
 }
 
-.svg {
-    padding-top:10px;
+.section img {
+  width: 100%;
 }
 
-.svg a {
-    position:relative;
-    display:inline-block;
-}
-.svg a:after {
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0;
+@media only screen and (max-width:600px){
+  body {
+    /* margin-top: 190px; */
+  }
+
+  .showcase {
+    height: 400px;
+    padding: 60px 0;
+  }
 }
