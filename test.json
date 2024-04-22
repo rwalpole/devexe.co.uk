@@ -1,0 +1,13 @@
+{
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://www.devexe.co.uk",
+      "sameAs": ["https://example.net/profile/example1234", "https://example.org/example1234"],
+      "logo": "https://devexe.co.uk/images/DeveXe_logo_1000px.png",
+      "name": "Devexe Consultancy Services",
+      "alternateName":"Devexe",
+      "legalName":"Devexe Limited",
+      "description": "Devexe is a specialist software engineer consultancy offering expert computer programming, data architecture and technical leadership services to UK and international clients.",
+      "email": "enquiries@devexe.co.uk",
+      "foundingDate":"2012-05-29"
+    }

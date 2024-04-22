@@ -1,7 +1,29 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <title>DeveXe Consultancy Services</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N1DDNM9JZH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-N1DDNM9JZH');
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://www.devexe.co.uk",
+      "logo": "https://devexe.co.uk/images/Devexe_logo_1000px.png",
+      "name": "Devexe Consultancy Services",
+      "alternateName":"Devexe",
+      "legalName":"Devexe Limited",
+      "description": "Devexe is a specialist software engineer consultancy offering expert computer programming, data architecture and technical leadership services to UK and international clients.",
+      "email": "enquiries@devexe.co.uk",
+      "foundingDate":"2012-05-29"
+    }
+    </script>
+    <title>Devexe Consultancy Services</title>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
@@ -68,7 +90,7 @@
       <div class="w3-bar w3-center w3-padding-large">
         <h1>
           <span class="w3-mobile">
-            <img src="images/DeveXe_logo_1000px.png" alt="Devexe Consultancy Services" height="120"/>
+            <img src="images/Devexe_logo_1000px.png" alt="Devexe Consultancy Services" height="120"/>
           </span>
         </h1>
       </div>
@@ -169,7 +191,7 @@
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/ODRL" target="_blank">Open Digital Rights Language (ODRL)</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/S1000D" target="_blank">S1000D</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language" target="_blank">Security Assertion Markup Language (SAML)</a></li>
-              <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language" target="_blank">Standard_Generalized_Markup_Language (SGML)</a></li>
+              <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language" target="_blank">Standard Generalized Markup Language (SGML)</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System" target="_blank">Simple Knowledge Organization System (SKOS)</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Turtle_(syntax)" target="_blank">Terse RDF Triple Language (Turtle)</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Semantic_Web" target="_blank">The Semantic Web</a></li>
@@ -191,7 +213,7 @@
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/ODRL" target="_blank">Open Digital Rights Language (ODRL)</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/S1000D" target="_blank">S1000D</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language" target="_blank">Security Assertion Markup Language (SAML)</a></li>
-                <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language" target="_blank">Standard_Generalized_Markup_Language (SGML)</a></li>
+                <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language" target="_blank">Standard Generalized Markup Language (SGML)</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System" target="_blank">Simple Knowledge Organization System (SKOS)</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Turtle_(syntax)" target="_blank">Terse RDF Triple Language (Turtle)</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Semantic_Web" target="_blank">The Semantic Web</a></li>
