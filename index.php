@@ -145,7 +145,7 @@
         </div>
         <div id="philosophy" class="w3-card w3-padding w3-margin-top w3-round-xlarge">
           <h2>Our philosophy</h2>
-          <p>Devexe is a strong advocate of international standardisation. We believe our clients should be able to move their data between different storage solutions without being locked into proprietary formats. We strongly support standards bodies such the <a href="https://www.w3.org/" target="_blank">W3C</a>, <a href="https://www.asd-europe.org/" target="_blank">ASD</a>, <a href="https://www.oasis-open.org/" target="_blank">OASIS.</a> and the <a href="https://www.ogc.org/" target="_blank">OGC</a>.</p>
+          <p>Devexe is a strong advocate of international standardisation. We believe our clients should be able to move their data between different storage solutions without being locked into proprietary formats. We strongly support standards bodies such the <a href="https://www.w3.org/" target="_blank">W3C</a>, <a href="https://www.asd-europe.org/" target="_blank">ASD</a>, <a href="https://www.oasis-open.org/" target="_blank">OASIS</a>, <a href="https://www.openapis.org" target="_blank">OpenAPI</a> and the <a href="https://www.ogc.org/" target="_blank">OGC</a>.</p>
           <p>We are also firm advocates of developing and using open-source software wherever this can be clearly demonstrated to benefit our clients. We believe open-source software frequently offers more flexibility and cost savings compared to proprietary software.</p>
         </div>
         <div id="specialisms" class="w3-card w3-padding w3-margin-top w3-margin-bottom w3-round-xlarge" style="padding-bottom:24px!important">
@@ -186,6 +186,7 @@
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/XML" target="_blank">Extensible Markup Language (XML)</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Hypertext Markup Language (HTML)</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Jakarta_Messaging" target="_blank">Java Message Service (JMS)</a></li>
+              <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/JSON" target="_blank">JavaScript Object Notation (JSON)</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/JSON_Web_Token" target="_blank">JSON Web Token (JWT)</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Resource_Description_Framework" target="_blank">Resource Description Framework (RDF)</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/ODRL" target="_blank">Open Digital Rights Language (ODRL)</a></li>
@@ -208,6 +209,7 @@
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/XML" target="_blank">Extensible Markup Language (XML)</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Hypertext Markup Language (HTML)</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Jakarta_Messaging" target="_blank">Java Message Service (JMS)</a></li>
+                <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/JSON" target="_blank">JavaScript Object Notation (JSON)</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/JSON_Web_Token" target="_blank">JSON Web Token (JWT)</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Resource_Description_Framework" target="_blank">Resource Description Framework (RDF)</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/ODRL" target="_blank">Open Digital Rights Language (ODRL)</a></li>
@@ -257,7 +259,7 @@
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/MongoDB" target="_blank">MongoDB</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Neo4j" target="_blank">Neo4j</a></li>
               <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Oracle_Database" target="_blank">Oracle</a></li>
-              <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Prot%C3%A9g%C3%A9_(software)" target="_blank">Protege</a></li>
+              <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Prot%C3%A9g%C3%A9_(software)" target="_blank">Protégé</a></li>
             </ul>
           </div>
           <noscript>
@@ -272,7 +274,7 @@
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/MongoDB" target="_blank">MongoDB</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Neo4j" target="_blank">Neo4j</a></li>
                 <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Oracle_Database" target="_blank">Oracle</a></li>
-                <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Prot%C3%A9g%C3%A9_(software)" target="_blank">Protege</a></li>
+                <li class="w3-hover-dark-grey"><a href="https://en.wikipedia.org/wiki/Prot%C3%A9g%C3%A9_(software)" target="_blank">Protégé</a></li>
               </ul>
             </div>
           </noscript>
